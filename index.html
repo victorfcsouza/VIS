@@ -180,7 +180,7 @@ function draw(topo) {
             tooltip
               .classed("hidden", false)
               .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-              .html(d.properties.name  + "<br>" + "Índice 2016:" + d.properties.index2016)
+              .html(d.properties.name  + "<br>" + "Índice 2016: " + d.properties.index2016)
           })
           .on("mouseout",  function(d,i) {
             tooltip.classed("hidden", true)
@@ -194,7 +194,7 @@ function draw(topo) {
             tooltip
               .classed("hidden", false)
               .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-              .html(d.properties.name  + "<br>" + "Índice 2015:" + d.properties.index2015)
+              .html(d.properties.name  + "<br>" + "Índice 2015: " + d.properties.index2015)
           })
           .on("mouseout",  function(d,i) {
             tooltip.classed("hidden", true)
